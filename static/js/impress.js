@@ -754,7 +754,7 @@
             }
         }, false );
 
-        // Delegated handler for clicking on the links to presentation steps
+        /*// Delegated handler for clicking on the links to presentation steps
         document.addEventListener( "click", function( event ) {
 
             // Event delegation with "bubbling"
@@ -794,7 +794,7 @@
             if ( api.goto( target ) ) {
                 event.preventDefault();
             }
-        }, false );
+        }, false );*/
 
         // Touch handler to detect taps on the left and right side of the screen
         // based on awesome work of @hakimel: https://github.com/hakimel/reveal.js

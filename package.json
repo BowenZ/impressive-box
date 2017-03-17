@@ -9,7 +9,10 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.2.2"
+    "gsap": "^1.19.1",
+    "vue": "^2.2.2",
+    "vuex": "^2.2.1",
+    "webpack-zepto": "0.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
